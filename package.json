@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://maaz80.github.io/Todo-X/",
+  "homepage":"https://maaz80.github.io/Todoxx/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
