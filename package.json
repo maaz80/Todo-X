@@ -3,14 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://maaz80.github.io/Todoxx/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"main -d build"
+    "predeploy": "npm run build",
+    "deploy": "main -d build"
   },
   "dependencies": {
     "react": "^18.2.0",

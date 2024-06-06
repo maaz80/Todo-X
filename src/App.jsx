@@ -90,14 +90,14 @@ function App() {
             <h1 className='text-center font-bold font-mono text-lg underline'>Add your Todo's Now</h1>
 
             <div className="flex justify-center py-5">
-              <input onChange={handleChange} value={todo} className='border  border-black p-1  rounded-md w-2/4 font-serif shadow-2xl' type="text" placeholder='Your todo here..' />
+              <input onChange={handleChange} value={todo} className='border  border-black p-1 rounded-md w-2.5/4 md:w-2/4 font-serif shadow-2xl' type="text" placeholder='Your todo here..' />
               <button disabled={todo.length <= 3} onClick={handleSave} className='bg-slate-600 px-4  rounded-md border border-black text-white disabled:bg-slate-300 font-serif ml-1 shadow-3xl' >Save</button>
             </div>
           </div>
 
           {/* Yur saved todos */}
           <h2 className='text-center font-bold font-mono text-lg underline'>Your todos</h2>
-          <div className='flex gap-2 md:ml-[26%] ml-[4.5%] justify-start underline font-mono font-semibold'>
+          <div className='flex gap-2 md:ml-[26%] ml-[4.5%] justify-start underline font-mono font-semibold mt-4'>
             <input onChange={togglecheckbox} type="checkbox" name="" id="" checked={showfinished} /><div>Show Finished</div>
           </div>
           <div className="todos ">
